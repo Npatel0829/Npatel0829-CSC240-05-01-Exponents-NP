@@ -48,9 +48,11 @@ namespace Exponents
 
             // OUTPUT
             UxOutputLabel.Visible = true;
+            UxOutputLabel.ForeColor = Color.Green;
 
             // turn the Go button off
             UxGoButton.Enabled = false;
+            UxGoButton.Enabled = true;
         }
 
         public int Square(int num)
@@ -68,8 +70,17 @@ namespace Exponents
         private void xResetButton_Click(object sender, EventArgs e)
         {
             // the input and output text should be emptied
+
+            UxInputTextBox.Text = string.Empty;
+            UxOutputLabel.Text = string.Empty;
+
             // turn the output to invisible
+
+            UxOutputLabel.Visible = false;
+
             // turn the Go button back on
+
+            UxGoButton.Visible = true;
         }
     }
 }
