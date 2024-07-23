@@ -28,6 +28,7 @@ namespace Exponents
         {
             // STORAGE
             int num;
+
             // INPUT
             num = Convert.ToInt32(UxInputTextBox.Text);
             // PROCESS
