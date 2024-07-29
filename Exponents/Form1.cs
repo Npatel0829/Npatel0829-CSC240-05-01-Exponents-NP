@@ -52,7 +52,7 @@ namespace Exponents
 
             // turn the Go button off
             UxGoButton.Enabled = false;
-            UxGoButton.Enabled = true;
+            
         }
 
         public int Square(int num)
@@ -80,7 +80,7 @@ namespace Exponents
 
             // turn the Go button back on
 
-            UxGoButton.Visible = true;
+            UxGoButton.Enabled = true;
         }
     }
 }
